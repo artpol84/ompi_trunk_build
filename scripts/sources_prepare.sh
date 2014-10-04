@@ -1,0 +1,9 @@
+#!/bin/bash
+
+. ./env.sh
+
+export PATH="$PREFIX/bin":$PATH
+export LD_LIBRARY_PATH="$PREFIX/lib":$LD_LIBRARY_PATH
+
+cd $OMPI_SRC
+./autogen.pl
