@@ -12,5 +12,6 @@ Set of scripts that ease compilation of Open MPI trunc.
 - sources_compile.sh to make/make install only in separate build directory
 - sources_configure_inplace.sh - to configure only in OMPI source directory
 - sources_compile_inplace.sh to make/make install only in OMPI source directory
+5. run_qtcreator.sh is an example how you can run your IDE in proper environment.
 
 Feel free to change scripts to fit your needs.
