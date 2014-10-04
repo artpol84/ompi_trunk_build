@@ -1,8 +1,6 @@
-#!/bin/bash
+#!/bin/bash -e
 
 . ./env.sh
-
-set -e
 
 rm -Rf $SRC_PATH $PREFIX
 mkdir $SRC_PATH
