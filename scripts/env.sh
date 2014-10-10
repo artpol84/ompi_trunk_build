@@ -2,7 +2,7 @@
 
 MAKE_JOBS=8
 OMPI_REV=
-OMPI_BASE="/home/artpol/WORK/Development/SLURM/mpi_plugin/src/"
+OMPI_BASE="<path-to-dir-with-OMPI>"
 OMPI_SRC="$OMPI_BASE/ompi"
 INSTPREF="${OMPI_SRC}_install"
 OMPI_BUILD="${OMPI_SRC}_build/"
