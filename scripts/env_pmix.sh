@@ -1,8 +1,8 @@
 #!/bin/bash
 
 MAKE_JOBS=8
-SLURM_BASE="<path-to-dir-with-SLURM>"
-SLURM_SRC="$SLURM_BASE/slurm"
+PMIX_BASE="<path-to-dir-with-PMIx>"
+PMIX_SRC="$PMIX_BASE/pmix"
 
 
 BASE_PATH=`pwd`/../
