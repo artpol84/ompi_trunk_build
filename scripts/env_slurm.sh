@@ -1,7 +1,12 @@
 #!/bin/bash
 
+#
+# NOTE: make sure to install the following package:
+# `sudo apt-get install libgtk2.0-dev`
+#
+
 MAKE_JOBS=8
-SLURM_BASE="<path-to-dir-with-SLURM>"
+SLURM_BASE="/home/artpol/WORK/SLURM/2016_12_02_improve_dmdx/"
 SLURM_SRC="$SLURM_BASE/slurm"
 
 
